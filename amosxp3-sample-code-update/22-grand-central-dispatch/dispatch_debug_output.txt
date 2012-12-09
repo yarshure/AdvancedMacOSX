@@ -1,0 +1,6 @@
+com.bignerdranch.dispatch_debug: com.apple.root.default-priority[0x7fff71001af0] = { refcnt = 0xffffffff, suspend_cnt = 0x1, parent = 0x0 }: global queue example
+com.bignerdranch.dispatch_debug: com.bignerdranch.exampleq[0x100100200] = { refcnt = 0x2, suspend_cnt = 0x0, parent = 0x7fff71001b98 }: serial queue example
+com.bignerdranch.dispatch_debug: semaphore[0x1001002b0] = { refcnt = 0x1, suspend_cnt = 0x0, port = 0x0, value = 9223372036854775807, orig = 9223372036854775807 }: group example
+com.bignerdranch.dispatch_debug: semaphore[0x100100320] = { refcnt = 0x1, suspend_cnt = 0x0, port = 0x0, value = 0, orig = 0 }: semaphore example
+com.bignerdranch.dispatch_debug: kevent-source[0x100100390] = { refcnt = 0x2, suspend_cnt = 0x0, target = com.apple.root.default-priority[0x7fff71001af0], pending_data = 0x0, pending_data_mask = 0x18, filter = EVFILT_VNODE }: vnode source example
+com.bignerdranch.dispatch_debug: kevent-source[0x1001004c0] = { refcnt = 0x2, suspend_cnt = 0x2, target = com.bignerdranch.exampleq[0x100100200], pending_data = 0x1, pending_data_mask = 0xffffffff, filter = DISPATCH_EVFILT_CUSTOM_OR }: data-or source example

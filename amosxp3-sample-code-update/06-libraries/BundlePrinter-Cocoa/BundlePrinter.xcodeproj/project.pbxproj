@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DA524BC13835B1E0037BC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA524BB13835B1E0037BC3B /* Foundation.framework */; };
+		7DA524DC13835D290037BC3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA524DB13835D290037BC3B /* main.m */; };
+		7DA524E313835D810037BC3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA524E213835D810037BC3B /* Cocoa.framework */; };
+		7DA524ED13835D810037BC3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA524EB13835D810037BC3B /* InfoPlist.strings */; };
+		7DA524F413835DC90037BC3B /* SimpleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA524F313835DC90037BC3B /* SimpleMessage.m */; };
+		7DA5250B13835ED60037BC3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA524E213835D810037BC3B /* Cocoa.framework */; };
+		7DA5251113835ED60037BC3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5250F13835ED60037BC3B /* InfoPlist.strings */; };
+		7DA5251713835EF40037BC3B /* ComplexMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5251613835EF40037BC3B /* ComplexMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DCBE56D15B07BE800F3598E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DA524AE13835B1E0037BC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DA524E013835D810037BC3B;
+			remoteInfo = SimpleMessage;
+		};
+		7DCBE57115B07BE800F3598E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DA524AE13835B1E0037BC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DA5250913835ED60037BC3B;
+			remoteInfo = ComplexMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DA524B513835B1E0037BC3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7DA524B713835B1E0037BC3B /* BundlePrinter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BundlePrinter; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA524BB13835B1E0037BC3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DA524C113835B1E0037BC3B /* BundlePrinter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BundlePrinter-Prefix.pch"; sourceTree = "<group>"; };
+		7DA524C213835B1E0037BC3B /* BundlePrinter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BundlePrinter.1; sourceTree = "<group>"; };
+		7DA524DB13835D290037BC3B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		7DA524E113835D810037BC3B /* SimpleMessage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMessage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA524E213835D810037BC3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7DA524E513835D810037BC3B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7DA524E613835D810037BC3B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7DA524E713835D810037BC3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DA524EA13835D810037BC3B /* SimpleMessage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMessage-Info.plist"; sourceTree = "<group>"; };
+		7DA524EC13835D810037BC3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DA524EE13835D810037BC3B /* SimpleMessage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleMessage-Prefix.pch"; sourceTree = "<group>"; };
+		7DA524F313835DC90037BC3B /* SimpleMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleMessage.m; path = ../../SimpleMessage/SimpleMessage.m; sourceTree = "<group>"; };
+		7DA524F513835E160037BC3B /* BundlePrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundlePrinter.h; sourceTree = SOURCE_ROOT; };
+		7DA5250A13835ED60037BC3B /* ComplexMessage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplexMessage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA5250E13835ED60037BC3B /* ComplexMessage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComplexMessage-Info.plist"; sourceTree = "<group>"; };
+		7DA5251013835ED60037BC3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DA5251213835ED60037BC3B /* ComplexMessage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComplexMessage-Prefix.pch"; sourceTree = "<group>"; };
+		7DA5251613835EF40037BC3B /* ComplexMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComplexMessage.m; path = ../../ComplexMessage/ComplexMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DA524B413835B1E0037BC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA524BC13835B1E0037BC3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA524DE13835D810037BC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA524E313835D810037BC3B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA5250713835ED60037BC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5250B13835ED60037BC3B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA524AC13835B1E0037BC3B = {
+			isa = PBXGroup;
+			children = (
+				7DA524BD13835B1E0037BC3B /* BundlePrinter */,
+				7DA524E813835D810037BC3B /* SimpleMessage */,
+				7DA5250C13835ED60037BC3B /* ComplexMessage */,
+				7DA524BA13835B1E0037BC3B /* Frameworks */,
+				7DA524B813835B1E0037BC3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DA524B813835B1E0037BC3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524B713835B1E0037BC3B /* BundlePrinter */,
+				7DA524E113835D810037BC3B /* SimpleMessage.bundle */,
+				7DA5250A13835ED60037BC3B /* ComplexMessage.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DA524BA13835B1E0037BC3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524BB13835B1E0037BC3B /* Foundation.framework */,
+				7DA524E213835D810037BC3B /* Cocoa.framework */,
+				7DA524E413835D810037BC3B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA524BD13835B1E0037BC3B /* BundlePrinter */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524F513835E160037BC3B /* BundlePrinter.h */,
+				7DA524DB13835D290037BC3B /* main.m */,
+				7DA524C213835B1E0037BC3B /* BundlePrinter.1 */,
+				7DA524C013835B1E0037BC3B /* Supporting Files */,
+			);
+			path = BundlePrinter;
+			sourceTree = "<group>";
+		};
+		7DA524C013835B1E0037BC3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524C113835B1E0037BC3B /* BundlePrinter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DA524E413835D810037BC3B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524E513835D810037BC3B /* AppKit.framework */,
+				7DA524E613835D810037BC3B /* CoreData.framework */,
+				7DA524E713835D810037BC3B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7DA524E813835D810037BC3B /* SimpleMessage */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524F313835DC90037BC3B /* SimpleMessage.m */,
+				7DA524E913835D810037BC3B /* Supporting Files */,
+			);
+			path = SimpleMessage;
+			sourceTree = "<group>";
+		};
+		7DA524E913835D810037BC3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524EA13835D810037BC3B /* SimpleMessage-Info.plist */,
+				7DA524EB13835D810037BC3B /* InfoPlist.strings */,
+				7DA524EE13835D810037BC3B /* SimpleMessage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DA5250C13835ED60037BC3B /* ComplexMessage */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5251613835EF40037BC3B /* ComplexMessage.m */,
+				7DA5250D13835ED60037BC3B /* Supporting Files */,
+			);
+			path = ComplexMessage;
+			sourceTree = "<group>";
+		};
+		7DA5250D13835ED60037BC3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5250E13835ED60037BC3B /* ComplexMessage-Info.plist */,
+				7DA5250F13835ED60037BC3B /* InfoPlist.strings */,
+				7DA5251213835ED60037BC3B /* ComplexMessage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DA524B613835B1E0037BC3B /* BundlePrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA524C513835B1E0037BC3B /* Build configuration list for PBXNativeTarget "BundlePrinter" */;
+			buildPhases = (
+				7DA524B313835B1E0037BC3B /* Sources */,
+				7DA524B413835B1E0037BC3B /* Frameworks */,
+				7DA524B513835B1E0037BC3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DCBE56E15B07BE800F3598E /* PBXTargetDependency */,
+				7DCBE57215B07BE800F3598E /* PBXTargetDependency */,
+			);
+			name = BundlePrinter;
+			productName = BundlePrinter;
+			productReference = 7DA524B713835B1E0037BC3B /* BundlePrinter */;
+			productType = "com.apple.product-type.tool";
+		};
+		7DA524E013835D810037BC3B /* SimpleMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA524EF13835D810037BC3B /* Build configuration list for PBXNativeTarget "SimpleMessage" */;
+			buildPhases = (
+				7DA524DD13835D810037BC3B /* Sources */,
+				7DA524DE13835D810037BC3B /* Frameworks */,
+				7DA524DF13835D810037BC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMessage;
+			productName = SimpleMessage;
+			productReference = 7DA524E113835D810037BC3B /* SimpleMessage.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7DA5250913835ED60037BC3B /* ComplexMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA5251313835ED60037BC3B /* Build configuration list for PBXNativeTarget "ComplexMessage" */;
+			buildPhases = (
+				7DA5250613835ED60037BC3B /* Sources */,
+				7DA5250713835ED60037BC3B /* Frameworks */,
+				7DA5250813835ED60037BC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplexMessage;
+			productName = ComplexMessage;
+			productReference = 7DA5250A13835ED60037BC3B /* ComplexMessage.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DA524AE13835B1E0037BC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Borkware, LLC";
+			};
+			buildConfigurationList = 7DA524B113835B1E0037BC3B /* Build configuration list for PBXProject "BundlePrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DA524AC13835B1E0037BC3B;
+			productRefGroup = 7DA524B813835B1E0037BC3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DA524B613835B1E0037BC3B /* BundlePrinter */,
+				7DA524E013835D810037BC3B /* SimpleMessage */,
+				7DA5250913835ED60037BC3B /* ComplexMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DA524DF13835D810037BC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA524ED13835D810037BC3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA5250813835ED60037BC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5251113835ED60037BC3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DA524B313835B1E0037BC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA524DC13835D290037BC3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA524DD13835D810037BC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA524F413835DC90037BC3B /* SimpleMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA5250613835ED60037BC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5251713835EF40037BC3B /* ComplexMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DCBE56E15B07BE800F3598E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DA524E013835D810037BC3B /* SimpleMessage */;
+			targetProxy = 7DCBE56D15B07BE800F3598E /* PBXContainerItemProxy */;
+		};
+		7DCBE57215B07BE800F3598E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DA5250913835ED60037BC3B /* ComplexMessage */;
+			targetProxy = 7DCBE57115B07BE800F3598E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DA524EB13835D810037BC3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DA524EC13835D810037BC3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DA5250F13835ED60037BC3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DA5251013835ED60037BC3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DA524C313835B1E0037BC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7DA524C413835B1E0037BC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7DA524C613835B1E0037BC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BundlePrinter-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DA524C713835B1E0037BC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BundlePrinter-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DA524F013835D810037BC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMessage/SimpleMessage-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMessage/SimpleMessage-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7DA524F113835D810037BC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMessage/SimpleMessage-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMessage/SimpleMessage-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7DA5251413835ED60037BC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplexMessage/ComplexMessage-Prefix.pch";
+				INFOPLIST_FILE = "ComplexMessage/ComplexMessage-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7DA5251513835ED60037BC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplexMessage/ComplexMessage-Prefix.pch";
+				INFOPLIST_FILE = "ComplexMessage/ComplexMessage-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DA524B113835B1E0037BC3B /* Build configuration list for PBXProject "BundlePrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA524C313835B1E0037BC3B /* Debug */,
+				7DA524C413835B1E0037BC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA524C513835B1E0037BC3B /* Build configuration list for PBXNativeTarget "BundlePrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA524C613835B1E0037BC3B /* Debug */,
+				7DA524C713835B1E0037BC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA524EF13835D810037BC3B /* Build configuration list for PBXNativeTarget "SimpleMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA524F013835D810037BC3B /* Debug */,
+				7DA524F113835D810037BC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA5251313835ED60037BC3B /* Build configuration list for PBXNativeTarget "ComplexMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA5251413835ED60037BC3B /* Debug */,
+				7DA5251513835ED60037BC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DA524AE13835B1E0037BC3B /* Project object */;
+}

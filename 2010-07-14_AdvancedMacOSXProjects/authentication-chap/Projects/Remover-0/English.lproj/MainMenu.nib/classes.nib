@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {changedSelection = id; deleteSelection = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {browser = NSBrowser; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

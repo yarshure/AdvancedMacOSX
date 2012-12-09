@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB3B1A113733EF300668A23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB3B1A013733EF300668A23 /* Cocoa.framework */; };
+		7DB3B1AB13733EF300668A23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3B1A913733EF300668A23 /* InfoPlist.strings */; };
+		7DB3B1AE13733EF300668A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3B1AD13733EF300668A23 /* main.m */; };
+		7DB3B1B113733EF300668A23 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3B1AF13733EF300668A23 /* Credits.rtf */; };
+		7DB3B1B413733EF300668A23 /* WordCounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3B1B313733EF300668A23 /* WordCounterAppDelegate.m */; };
+		7DB3B1B713733EF300668A23 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3B1B513733EF300668A23 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DB3B19C13733EF300668A23 /* WordCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB3B1A013733EF300668A23 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7DB3B1A313733EF300668A23 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7DB3B1A413733EF300668A23 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7DB3B1A513733EF300668A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DB3B1A813733EF300668A23 /* WordCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordCounter-Info.plist"; sourceTree = "<group>"; };
+		7DB3B1AA13733EF300668A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DB3B1AC13733EF300668A23 /* WordCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordCounter-Prefix.pch"; sourceTree = "<group>"; };
+		7DB3B1AD13733EF300668A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DB3B1B013733EF300668A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7DB3B1B213733EF300668A23 /* WordCounterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordCounterAppDelegate.h; sourceTree = "<group>"; };
+		7DB3B1B313733EF300668A23 /* WordCounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCounterAppDelegate.m; sourceTree = "<group>"; };
+		7DB3B1B613733EF300668A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB3B19913733EF300668A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB3B1A113733EF300668A23 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB3B19113733EF300668A23 = {
+			isa = PBXGroup;
+			children = (
+				7DB3B1A613733EF300668A23 /* WordCounter */,
+				7DB3B19F13733EF300668A23 /* Frameworks */,
+				7DB3B19D13733EF300668A23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB3B19D13733EF300668A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3B19C13733EF300668A23 /* WordCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB3B19F13733EF300668A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3B1A013733EF300668A23 /* Cocoa.framework */,
+				7DB3B1A213733EF300668A23 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB3B1A213733EF300668A23 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3B1A313733EF300668A23 /* AppKit.framework */,
+				7DB3B1A413733EF300668A23 /* CoreData.framework */,
+				7DB3B1A513733EF300668A23 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7DB3B1A613733EF300668A23 /* WordCounter */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3B1B213733EF300668A23 /* WordCounterAppDelegate.h */,
+				7DB3B1B313733EF300668A23 /* WordCounterAppDelegate.m */,
+				7DB3B1B513733EF300668A23 /* MainMenu.xib */,
+				7DB3B1A713733EF300668A23 /* Supporting Files */,
+			);
+			path = WordCounter;
+			sourceTree = "<group>";
+		};
+		7DB3B1A713733EF300668A23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3B1A813733EF300668A23 /* WordCounter-Info.plist */,
+				7DB3B1A913733EF300668A23 /* InfoPlist.strings */,
+				7DB3B1AC13733EF300668A23 /* WordCounter-Prefix.pch */,
+				7DB3B1AD13733EF300668A23 /* main.m */,
+				7DB3B1AF13733EF300668A23 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB3B19B13733EF300668A23 /* WordCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB3B1BA13733EF300668A23 /* Build configuration list for PBXNativeTarget "WordCounter" */;
+			buildPhases = (
+				7DB3B19813733EF300668A23 /* Sources */,
+				7DB3B19913733EF300668A23 /* Frameworks */,
+				7DB3B19A13733EF300668A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCounter;
+			productName = WordCounter;
+			productReference = 7DB3B19C13733EF300668A23 /* WordCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB3B19313733EF300668A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Borkware, LLC";
+			};
+			buildConfigurationList = 7DB3B19613733EF300668A23 /* Build configuration list for PBXProject "WordCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB3B19113733EF300668A23;
+			productRefGroup = 7DB3B19D13733EF300668A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB3B19B13733EF300668A23 /* WordCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB3B19A13733EF300668A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB3B1AB13733EF300668A23 /* InfoPlist.strings in Resources */,
+				7DB3B1B113733EF300668A23 /* Credits.rtf in Resources */,
+				7DB3B1B713733EF300668A23 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB3B19813733EF300668A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB3B1AE13733EF300668A23 /* main.m in Sources */,
+				7DB3B1B413733EF300668A23 /* WordCounterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DB3B1A913733EF300668A23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB3B1AA13733EF300668A23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DB3B1AF13733EF300668A23 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB3B1B013733EF300668A23 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7DB3B1B513733EF300668A23 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB3B1B613733EF300668A23 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DB3B1B813733EF300668A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7DB3B1B913733EF300668A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7DB3B1BB13733EF300668A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordCounter/WordCounter-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "WordCounter/WordCounter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DB3B1BC13733EF300668A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordCounter/WordCounter-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "WordCounter/WordCounter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB3B19613733EF300668A23 /* Build configuration list for PBXProject "WordCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB3B1B813733EF300668A23 /* Debug */,
+				7DB3B1B913733EF300668A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB3B1BA13733EF300668A23 /* Build configuration list for PBXNativeTarget "WordCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB3B1BB13733EF300668A23 /* Debug */,
+				7DB3B1BC13733EF300668A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB3B19313733EF300668A23 /* Project object */;
+}

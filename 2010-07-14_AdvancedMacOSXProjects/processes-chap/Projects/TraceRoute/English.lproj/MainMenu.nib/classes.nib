@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {startStop = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {button = NSButton; hostField = NSTextField; textView = NSTextView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

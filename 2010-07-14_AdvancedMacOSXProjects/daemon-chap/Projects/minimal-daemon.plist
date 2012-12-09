@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<false/>
+	<key>Label</key>
+	<string>com.bignerdranch.daemontest</string>
+	<key>OnDemand</key>
+	<false/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/markd/Projects/core-osx/daemon-chap/minimal-daemon</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/Users/markd/Projects/core-osx/daemon-chap/stderror.txt</string>
+	<key>StandardOutPath</key>
+	<string>/Users/markd/Projects/core-osx/daemon-chap/stdout.txt</string>
+</dict>
+</plist>

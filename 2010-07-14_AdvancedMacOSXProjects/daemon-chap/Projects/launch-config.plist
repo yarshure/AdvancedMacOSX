@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<false/>
+	<key>Label</key>
+	<string>com.bignerdranch.launchconfig</string>
+	<key>OnDemand</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/markd/Projects/core-osx/daemon-chap/launch-config</string>
+	</array>
+	<key>ServiceIPC</key>
+	<true/>
+	<key>Sockets</key>
+	<dict>
+		<key>thing1</key>
+		<dict>
+			<key>SockServiceName</key>
+			<string>2342</string>
+		</dict>
+		<key>thing2</key>
+		<dict>
+			<key>SockServiceName</key>
+			<string>1842</string>
+		</dict>
+	</dict>
+	<key>StandardErrorPath</key>
+	<string>/Users/markd/Projects/core-osx/daemon-chap/stderror.txt</string>
+	<key>StandardOutPath</key>
+	<string>/Users/markd/Projects/core-osx/daemon-chap/stdout.txt</string>
+</dict>
+</plist>

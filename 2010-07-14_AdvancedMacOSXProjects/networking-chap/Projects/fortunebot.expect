@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+spawn ./chatterclient localhost fortune
+expect {
+  -re "\[\r\n\]*(.{1,8}): has joined the channel" {
+    send "$expect_out(1,string): Send \"Tell me a fortune!\" to request a fortune.\n"
+    exp_continue
+  }
+  -re "\[\r\n\]*(.{1,8}): Tell me a fortune!" {
+    set fortune [exec fortune]
+    foreach line [split $fortune "\n"] {
+      send "$expect_out(1,string): $line\n"
+    }
+    #send "$expect_out(1,string): $fortune\n"
+    exp_continue
+  }
+  timeout exp_continue
+}
